@@ -24,6 +24,6 @@ public class BasicCalculator {
 
     public Double Division(Double number1, Double number2) {
         logger.info( "Dividing {} / {}", number1, number2 );
-        return (number2 != 0) ? number1 / number2 : 0D;
+        return number1 / number2;
     }
 }

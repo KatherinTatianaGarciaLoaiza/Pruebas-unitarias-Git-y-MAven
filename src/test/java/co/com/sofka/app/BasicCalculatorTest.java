@@ -76,7 +76,7 @@ class BasicCalculatorTest {
     @CsvSource({
             "0,    1,    0",
             "2,   -2,   -1",
-            "50,   0,   0D",
+            "50,   0,   Infinity",
             "16,   4,    4",
             "10,   1,    10"
     })
